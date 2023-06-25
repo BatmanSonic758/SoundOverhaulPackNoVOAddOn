@@ -1,0 +1,116 @@
+{
+   "Groups": [
+     {
+       "Name": "Main",
+       "DisplayName": "Japanese Add-On Sound Options",
+       "Elements": [
+         {
+           "Name": "IncludeDir0",
+           "DisplayName": "Gameplay",
+           "Description": [
+             "Choose the sound preset of your liking."
+           ],
+           "Type": "GameplayEnum",
+           "MinValue": null,
+           "MaxValue": null,
+           "DefaultValue": "raw_frontiers"
+			 },
+			 {
+				"Name": "IncludeDir1",
+				"DisplayName": "The End",
+				"Description": [
+				   "Choose the boss theme for The End.",
+				],
+				"Type": "TheEndEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "raw_TheEnd_vandalize"
+			 },
+			 {
+				"Name": "IncludeDir2",
+				"DisplayName": "Cyber Space Boost Filters",
+				"Description": [
+				   "Allows you to which Boost Filter you wish to play during Cyber Space. Choose either the vanilla boost filter or one that mimics the filters to sound like they're from Sonic Generations.\n\nAll changes are still applied no matter what option you chose.",
+				],
+				"Type": "CyberEditEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "raw_CyberSpaceRangersBoost"
+			 }
+		  ]
+	   }
+	],
+	
+	"Enums": {
+     "GameplayEnum": [
+       {
+         "DisplayName": "Vanilla Overhaul (Frontiers)",
+         "Value": "raw_frontiers",
+         "Description": [
+           "Improving the vanilla sounds with higher quality ones and adds little tweaks to it."
+         ]
+       },
+       {
+         "DisplayName": "Boost Era Sounds",
+         "Value": "raw_boost",
+         "Description": [
+           "Replaces the modified Frontiers SFX with sounds from the Boost Era (Unleashed, Colors, Generations and Lost World)"
+         ]
+       },
+       {
+         "DisplayName": "Dreamcast Era Sounds",
+         "Value": "raw_dreamcast",
+         "Description": [
+           "Replaces the modified Frontiers SFX with sounds from the Dreamcast Era (Adventure 1, 2 and Heroes)"
+         ]
+       },
+       {
+         "DisplayName": "Hybrid Sounds",
+         "Value": "raw_hybrid",
+         "Description": [
+           "Merges sounds from each Preset into one!"
+		     ]
+		  },
+  	   ],
+     "TheEndEnum": [
+       {
+         "DisplayName": "Vandalize [Re-Edit]",
+         "Value": "raw_TheEnd_vandalize",
+         "Description": [
+           "NOTE: This (obviously) uses the Japanese / Explicit / whatever you want to call it version of Vandalize.\n\nReplacing ''I'm With You'' with an edited version of ''Vandalize''.\n\nI call it ''Vandalize [Re-Edit]'' :)"
+         ]
+       },
+       {
+         "DisplayName": "One Way Dream",
+         "Value": "dummy",
+         "Description": [
+           "Replacing ''I'm With You'' with ''One Way Dream''."
+         ]
+       },
+       {
+         "DisplayName": "I'm With You",
+         "Value": "dummy",
+         "Description": [
+           "Does not modify The End's theme."
+		     ]
+		  },
+  	   ],
+	   "CyberEditEnum": [
+		{
+		 "DisplayName": "Frontiers",
+		 "Value": "raw_CyberSpaceRangersBoost",
+         "Description": [
+           "Enable the Cyber Space OST edits."
+         ]
+       },
+       {
+         "DisplayName": "Generations-Esque",
+         "Value": "raw_CyberSpaceGenerationsBoost",
+         "Description": [
+           "Makes the Cyber Space stages' boost filters sound akin to that from Sonic Generations."
+         ]
+       }
+     ]
+   },
+   "IniFile": "mod.ini"
+}
