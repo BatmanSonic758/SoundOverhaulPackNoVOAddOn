@@ -1,5 +1,4 @@
 add main/raw/dlc/dlcslr/dlcslr_sound/se_rangers_dlcslr.acb
-add main/raw/sound/birthday_sound/se_rangers_ud02_birthday.acb
 add main/raw/sound/chargercommon_sound/se_rangers_miniboss_charger.acb
 add main/raw/sound/dragon01_sound/se_rangers_giant02.acb
 add main/raw/sound/giant01_sound/se_rangers_giant01.acb
@@ -20,7 +19,5 @@ add raw_frontiers/raw/sound/sonic_sound/se_rangers_player_sonic.acb
 add raw_hybrid/raw/general/resident_general/se_rangers_obj_common.acb
 add raw_hybrid/raw/sound/birthday_sound/se_rangers_ud02_birthday.acb
 add raw_hybrid/raw/sound/sonic_sound/se_rangers_player_sonic.acb
-add raw_TheEnd_vandalize/raw/sound/the_end01_sound/bgm_lastboss.acb
-add raw_TheEnd_vandalize/raw/sound/the_end01_sound/bgm_lastboss.awb
 add mod.ini
 add SoundOptions.json
