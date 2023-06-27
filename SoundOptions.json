@@ -2,7 +2,7 @@
    "Groups": [
      {
        "Name": "Main",
-       "DisplayName": "Japanese Add-On Sound Options",
+       "DisplayName": "Shut Up Sonic Add-On Sound Options",
        "Elements": [
          {
            "Name": "IncludeDir0",
@@ -17,17 +17,6 @@
 			 },
 			 {
 				"Name": "IncludeDir1",
-				"DisplayName": "The End",
-				"Description": [
-				   "Choose the boss theme for The End.",
-				],
-				"Type": "TheEndEnum",
-				"MinValue": null,
-				"MaxValue": null,
-				"DefaultValue": "raw_TheEnd_vandalize"
-			 },
-			 {
-				"Name": "IncludeDir2",
 				"DisplayName": "Cyber Space Boost Filters",
 				"Description": [
 				   "Allows you to which Boost Filter you wish to play during Cyber Space. Choose either the vanilla boost filter or one that mimics the filters to sound like they're from Sonic Generations.\n\nAll changes are still applied no matter what option you chose.",
@@ -69,29 +58,6 @@
          "Value": "raw_hybrid",
          "Description": [
            "Merges sounds from each Preset into one!"
-		     ]
-		  },
-  	   ],
-     "TheEndEnum": [
-       {
-         "DisplayName": "Vandalize [Re-Edit]",
-         "Value": "raw_TheEnd_vandalize",
-         "Description": [
-           "NOTE: This (obviously) uses the Japanese / Explicit / whatever you want to call it version of Vandalize.\n\nReplacing ''I'm With You'' with an edited version of ''Vandalize''.\n\nI call it ''Vandalize [Re-Edit]'' :)"
-         ]
-       },
-       {
-         "DisplayName": "One Way Dream",
-         "Value": "dummy",
-         "Description": [
-           "Replacing ''I'm With You'' with ''One Way Dream''."
-         ]
-       },
-       {
-         "DisplayName": "I'm With You",
-         "Value": "dummy",
-         "Description": [
-           "Does not modify The End's theme."
 		     ]
 		  },
   	   ],
