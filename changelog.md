@@ -1,5 +1,5 @@
 ## Version 1.1.4 Hotfix
-- Fixed Sonic's English VO still playing when interacting with some objects in the Add-Ons... whoops...
+- Fixed Sonic's English VO still playing when interacting with some objects.
 
 ## Version 1.1.3 Hotfix
 - Alternative sounds for existing presets are now featured.
