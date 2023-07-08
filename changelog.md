@@ -1,3 +1,6 @@
+## Version 1.1.5 Hotfix
+- Fixed Sonic's Japanese VO being played while taking damage.
+
 ## Version 1.1.4 Hotfix
 - Fixed Sonic's English VO still playing when interacting with some objects.
 
