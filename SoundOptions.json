@@ -100,6 +100,30 @@
          "Value": "raw_hybrid_NoAirTrick",
          "Description": [
            "Keeps the modified SFX but reverts the Air Tricks / Wild Rush sound back to it's original version."
+         ]
+       },
+       {
+         "DisplayName": "Custom Preset 1",
+         "Value": "raw_custom1",
+         "Description": [
+           "Allows the use of other sound mods in favor for compatibility.\n\nTo make it work, just drag the associated files that modify either ''sound'' or ''general'' directories. (raw_custom1)."
+         ]
+       },
+       {
+         "DisplayName": "Custom Preset 2",
+         "Value": "raw_custom2",
+         "Description": [
+           "Allows the use of other sound mods in favor for compatibility.\n\nTo make it work, just drag the associated files that modify either ''sound'' or ''general'' directories. (raw_custom2)."
+         ]
+       },
+       {
+         "DisplayName": "Custom Preset 3",
+         "Value": "raw_custom3",
+         "Description": [
+           "Allows the use of other sound mods in favor for compatibility.\n\nTo make it work, just drag the associated files that modify either ''sound'' or ''general'' directories. (raw_custom3)."
+		     ]
+		  },
+  	   ],
 		     ]
 		  },
   	   ],
