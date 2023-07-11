@@ -1,3 +1,6 @@
+## Version 1.1.6 Hotfix
+- Fixed Custom Presets being absent in both Add-Ons... for those who use them...
+
 ## Version 1.1.5 Hotfix
 - Fixed Sonic's Japanese VO being played while taking damage.
 
